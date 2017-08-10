@@ -1,0 +1,28 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <script src="/webjars/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+    <title>Login Demo</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="jumbotron">
+    <h1>Hello, world!</h1>
+    <p>...</p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    <a th:href="@{/login}" class="btn btn-info" role="button">Logout</a>
+</div>
+<div class="container"><br/>
+    <div class="alert alert-success">
+        <p>its working as expected</p>
+        <div th:text="${userName}" id="scheduler"></div>
+        <div th:text="${adminMessage}"></div>
+    </div>
+</div>
+</body>
+</html>
