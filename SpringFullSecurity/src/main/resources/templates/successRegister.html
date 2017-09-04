@@ -1,0 +1,24 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml"
+>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <script src="/webjars/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+    <title>Login Demo</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/noFound.css}"/>
+</head>
+<body class="bg-cyan">
+<div class="container"><br/>
+    <div class="alert alert-info">
+        <div th:text="${successMessage}"></div>
+        <strong>Success!</strong> You are Ready to Login!!!
+    </div>
+    <div class="alert alert-success">
+        <a th:href="@{/login}" th:text="#{label.login}">LoginPage</a>
+    </div>
+</div>
+</body>
+</html>

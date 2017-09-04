@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-cyan {
+    background-image: url(../img/bg-cyan.jpg);
+}
+
+.body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.body-s {
+    max-width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+    .body {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,2073 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+/**/
+
+/* defaults */
+
+/**/
+
+.sky-form {
+    margin: 0;
+    outline: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #666;
+}
+
+.sky-form * {
+    margin: 0;
+    padding: 0;
+}
+
+.sky-form header {
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    background: rgba(248, 248, 248, .9);
+    font-size: 25px;
+    font-weight: 300;
+    color: #232323;
+}
+
+.sky-form fieldset {
+    display: block;
+    padding: 25px 30px 5px;
+    border: none;
+    background: rgba(255, 255, 255, .9);
+}
+
+.sky-form fieldset + fieldset {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.sky-form section {
+    margin-bottom: 20px;
+}
+
+.sky-form footer {
+    display: block;
+    padding: 15px 30px 25px;
+    padding-right: 40%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    background: rgba(248, 248, 248, .9);
+}
+
+.sky-form footer:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sky-form a {
+    color: #2da5da;
+}
+
+.sky-form .label {
+    display: block;
+    margin-bottom: 6px;
+    line-height: 19px;
+}
+
+.sky-form .label.col {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.sky-form .note {
+    margin-top: 6px;
+    padding: 0 1px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #999;
+}
+
+.sky-form .input, .sky-form .select, .sky-form .textarea, .sky-form .radio, .sky-form .checkbox, .sky-form .toggle, .sky-form .button {
+    position: relative;
+    display: block;
+}
+
+.sky-form .input input, .sky-form .select select, .sky-form .textarea textarea {
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    height: 39px;
+    padding: 8px 10px;
+    outline: none;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0;
+    background: #fff;
+    font: 15px/19px 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #404040;
+    appearance: normal;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+/**/
+
+/* file inputs */
+
+/**/
+
+.sky-form .input-file .button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    float: none;
+    height: 31px;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 13px;
+    line-height: 31px;
+}
+
+.sky-form .input-file .button:hover {
+    box-shadow: none;
+}
+
+.sky-form .input-file .button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+/**/
+
+/* selects */
+
+/**/
+
+.sky-form .select i {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 5px;
+    height: 11px;
+    background: #fff;
+    box-shadow: 0 0 0 12px #fff;
+}
+
+.sky-form .select i:after, .sky-form .select i:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.sky-form .select i:after {
+    bottom: 0;
+    border-top: 4px solid #404040;
+}
+
+.sky-form .select i:before {
+    top: 0;
+    border-bottom: 4px solid #404040;
+}
+
+.sky-form .select-multiple select {
+    height: auto;
+}
+
+/**/
+
+/* textareas */
+
+/**/
+
+.sky-form .textarea textarea {
+    height: auto;
+    resize: none;
+}
+
+.sky-form .textarea-resizable textarea {
+    resize: vertical;
+}
+
+.sky-form .textarea-expandable textarea {
+    height: 39px;
+}
+
+.sky-form .textarea-expandable textarea:focus {
+    height: auto;
+}
+
+/**/
+
+/* radios and checkboxes */
+
+/**/
+
+.sky-form .radio, .sky-form .checkbox {
+    margin-bottom: 4px;
+    padding-left: 27px;
+    font-size: 15px;
+    line-height: 27px;
+    color: #404040;
+    cursor: pointer;
+}
+
+.sky-form .radio:last-child, .sky-form .checkbox:last-child {
+    margin-bottom: 0;
+}
+
+.sky-form .radio input, .sky-form .checkbox input {
+    position: absolute;
+    left: -9999px;
+}
+
+.sky-form .radio i, .sky-form .checkbox i {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+    width: 13px;
+    height: 13px;
+    outline: none;
+    border-width: 2px;
+    border-style: solid;
+    background: #fff;
+}
+
+.sky-form .radio i {
+    border-radius: 50%;
+}
+
+.sky-form .radio input + i:after, .sky-form .checkbox input + i:after {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+    -ms-transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -webkit-transition: opacity 0.1s;
+}
+
+.sky-form .radio input + i:after {
+    content: '';
+    top: 4px;
+    left: 4px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.sky-form .checkbox input + i:after {
+    content: '\f00c';
+    top: -1px;
+    left: -1px;
+    width: 15px;
+    height: 15px;
+    font: normal 12px/16px FontAwesome;
+    text-align: center;
+}
+
+.sky-form .radio input:checked + i:after, .sky-form .checkbox input:checked + i:after {
+    opacity: 1;
+}
+
+.sky-form .inline-group {
+    margin: 0 -30px -4px 0;
+}
+
+.sky-form .inline-group:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sky-form .inline-group .radio, .sky-form .inline-group .checkbox {
+    float: left;
+    margin-right: 30px;
+}
+
+.sky-form .inline-group .radio:last-child, .sky-form .inline-group .checkbox:last-child {
+    margin-bottom: 4px;
+}
+
+/**/
+
+/* toggles */
+
+/**/
+
+.sky-form .toggle {
+    margin-bottom: 4px;
+    padding-right: 61px;
+    font-size: 15px;
+    line-height: 27px;
+    color: #404040;
+    cursor: pointer;
+}
+
+.sky-form .toggle:last-child {
+    margin-bottom: 0;
+}
+
+.sky-form .toggle input {
+    position: absolute;
+    left: -9999px;
+}
+
+.sky-form .toggle i {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: 0;
+    display: block;
+    width: 49px;
+    height: 17px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.sky-form .toggle i:after {
+    content: 'OFF';
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    left: 8px;
+    font-style: normal;
+    font-size: 9px;
+    line-height: 13px;
+    font-weight: 700;
+    text-align: left;
+    color: #5f5f5f;
+}
+
+.sky-form .toggle i:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 4px;
+    right: 4px;
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    opacity: 1;
+    transition: right 0.2s;
+    -o-transition: right 0.2s;
+    -ms-transition: right 0.2s;
+    -moz-transition: right 0.2s;
+    -webkit-transition: right 0.2s;
+}
+
+.sky-form .toggle input:checked + i:after {
+    content: 'ON';
+    text-align: right;
+}
+
+.sky-form .toggle input:checked + i:before {
+    right: 36px;
+}
+
+/**/
+
+/* ratings */
+
+/**/
+
+.sky-form .rating {
+    margin-bottom: 4px;
+    font-size: 15px;
+    line-height: 27px;
+    color: #404040;
+}
+
+.sky-form .rating:last-child {
+    margin-bottom: 0;
+}
+
+.sky-form .rating input {
+    position: absolute;
+    left: -9999px;
+}
+
+.sky-form .rating label {
+    display: block;
+    float: right;
+    height: 17px;
+    margin-top: 5px;
+    padding: 0 2px;
+    font-size: 17px;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+/**/
+
+/* buttons */
+
+/**/
+
+.sky-form .button {
+    float: right;
+    height: 39px;
+    overflow: hidden;
+    margin: 10px 0 0 20px;
+    padding: 0 25px;
+    outline: none;
+    border: 0;
+    font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/**/
+
+/* icons */
+
+/**/
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../icons/fontawesome-webfont.eot?v=3.0.1');
+    src: url('../icons/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'), url('../icons/fontawesome-webfont.woff?v=3.0.1') format('woff'), url('../icons/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-glass:before {
+    content: "\f000";
+}
+
+.icon-music:before {
+    content: "\f001";
+}
+
+.icon-search:before {
+    content: "\f002";
+}
+
+.icon-envelope:before {
+    content: "\f003";
+}
+
+.icon-heart:before {
+    content: "\f004";
+}
+
+.icon-star:before {
+    content: "\f005";
+}
+
+.icon-star-empty:before {
+    content: "\f006";
+}
+
+.icon-user:before {
+    content: "\f007";
+}
+
+.icon-film:before {
+    content: "\f008";
+}
+
+.icon-th-large:before {
+    content: "\f009";
+}
+
+.icon-th:before {
+    content: "\f00a";
+}
+
+.icon-th-list:before {
+    content: "\f00b";
+}
+
+.icon-ok:before {
+    content: "\f00c";
+}
+
+.icon-remove:before {
+    content: "\f00d";
+}
+
+.icon-zoom-in:before {
+    content: "\f00e";
+}
+
+.icon-zoom-out:before {
+    content: "\f010";
+}
+
+.icon-off:before {
+    content: "\f011";
+}
+
+.icon-signal:before {
+    content: "\f012";
+}
+
+.icon-cog:before {
+    content: "\f013";
+}
+
+.icon-trash:before {
+    content: "\f014";
+}
+
+.icon-home:before {
+    content: "\f015";
+}
+
+.icon-file:before {
+    content: "\f016";
+}
+
+.icon-time:before {
+    content: "\f017";
+}
+
+.icon-road:before {
+    content: "\f018";
+}
+
+.icon-download-alt:before {
+    content: "\f019";
+}
+
+.icon-download:before {
+    content: "\f01a";
+}
+
+.icon-upload:before {
+    content: "\f01b";
+}
+
+.icon-inbox:before {
+    content: "\f01c";
+}
+
+.icon-play-circle:before {
+    content: "\f01d";
+}
+
+.icon-repeat:before, .icon-rotate-right:before {
+    content: "\f01e";
+}
+
+.icon-refresh:before {
+    content: "\f021";
+}
+
+.icon-list-alt:before {
+    content: "\f022";
+}
+
+.icon-lock:before {
+    content: "\f023";
+}
+
+.icon-flag:before {
+    content: "\f024";
+}
+
+.icon-headphones:before {
+    content: "\f025";
+}
+
+.icon-volume-off:before {
+    content: "\f026";
+}
+
+.icon-volume-down:before {
+    content: "\f027";
+}
+
+.icon-volume-up:before {
+    content: "\f028";
+}
+
+.icon-qrcode:before {
+    content: "\f029";
+}
+
+.icon-barcode:before {
+    content: "\f02a";
+}
+
+.icon-tag:before {
+    content: "\f02b";
+}
+
+.icon-tags:before {
+    content: "\f02c";
+}
+
+.icon-book:before {
+    content: "\f02d";
+}
+
+.icon-bookmark:before {
+    content: "\f02e";
+}
+
+.icon-print:before {
+    content: "\f02f";
+}
+
+.icon-camera:before {
+    content: "\f030";
+}
+
+.icon-font:before {
+    content: "\f031";
+}
+
+.icon-bold:before {
+    content: "\f032";
+}
+
+.icon-italic:before {
+    content: "\f033";
+}
+
+.icon-text-height:before {
+    content: "\f034";
+}
+
+.icon-text-width:before {
+    content: "\f035";
+}
+
+.icon-align-left:before {
+    content: "\f036";
+}
+
+.icon-align-center:before {
+    content: "\f037";
+}
+
+.icon-align-right:before {
+    content: "\f038";
+}
+
+.icon-align-justify:before {
+    content: "\f039";
+}
+
+.icon-list:before {
+    content: "\f03a";
+}
+
+.icon-indent-left:before {
+    content: "\f03b";
+}
+
+.icon-indent-right:before {
+    content: "\f03c";
+}
+
+.icon-facetime-video:before {
+    content: "\f03d";
+}
+
+.icon-picture:before {
+    content: "\f03e";
+}
+
+.icon-pencil:before {
+    content: "\f040";
+}
+
+.icon-map-marker:before {
+    content: "\f041";
+}
+
+.icon-adjust:before {
+    content: "\f042";
+}
+
+.icon-tint:before {
+    content: "\f043";
+}
+
+.icon-edit:before {
+    content: "\f044";
+}
+
+.icon-share:before {
+    content: "\f045";
+}
+
+.icon-check:before {
+    content: "\f046";
+}
+
+.icon-move:before {
+    content: "\f047";
+}
+
+.icon-step-backward:before {
+    content: "\f048";
+}
+
+.icon-fast-backward:before {
+    content: "\f049";
+}
+
+.icon-backward:before {
+    content: "\f04a";
+}
+
+.icon-play:before {
+    content: "\f04b";
+}
+
+.icon-pause:before {
+    content: "\f04c";
+}
+
+.icon-stop:before {
+    content: "\f04d";
+}
+
+.icon-forward:before {
+    content: "\f04e";
+}
+
+.icon-fast-forward:before {
+    content: "\f050";
+}
+
+.icon-step-forward:before {
+    content: "\f051";
+}
+
+.icon-eject:before {
+    content: "\f052";
+}
+
+.icon-chevron-left:before {
+    content: "\f053";
+}
+
+.icon-chevron-right:before {
+    content: "\f054";
+}
+
+.icon-plus-sign:before {
+    content: "\f055";
+}
+
+.icon-minus-sign:before {
+    content: "\f056";
+}
+
+.icon-remove-sign:before {
+    content: "\f057";
+}
+
+.icon-ok-sign:before {
+    content: "\f058";
+}
+
+.icon-question-sign:before {
+    content: "\f059";
+}
+
+.icon-info-sign:before {
+    content: "\f05a";
+}
+
+.icon-screenshot:before {
+    content: "\f05b";
+}
+
+.icon-remove-circle:before {
+    content: "\f05c";
+}
+
+.icon-ok-circle:before {
+    content: "\f05d";
+}
+
+.icon-ban-circle:before {
+    content: "\f05e";
+}
+
+.icon-arrow-left:before {
+    content: "\f060";
+}
+
+.icon-arrow-right:before {
+    content: "\f061";
+}
+
+.icon-arrow-up:before {
+    content: "\f062";
+}
+
+.icon-arrow-down:before {
+    content: "\f063";
+}
+
+.icon-share-alt:before, .icon-mail-forward:before {
+    content: "\f064";
+}
+
+.icon-resize-full:before {
+    content: "\f065";
+}
+
+.icon-resize-small:before {
+    content: "\f066";
+}
+
+.icon-plus:before {
+    content: "\f067";
+}
+
+.icon-minus:before {
+    content: "\f068";
+}
+
+.icon-asterisk:before {
+    content: "\f069";
+}
+
+.icon-exclamation-sign:before {
+    content: "\f06a";
+}
+
+.icon-gift:before {
+    content: "\f06b";
+}
+
+.icon-leaf:before {
+    content: "\f06c";
+}
+
+.icon-fire:before {
+    content: "\f06d";
+}
+
+.icon-eye-open:before {
+    content: "\f06e";
+}
+
+.icon-eye-close:before {
+    content: "\f070";
+}
+
+.icon-warning-sign:before {
+    content: "\f071";
+}
+
+.icon-plane:before {
+    content: "\f072";
+}
+
+.icon-calendar:before {
+    content: "\f073";
+}
+
+.icon-random:before {
+    content: "\f074";
+}
+
+.icon-comment:before {
+    content: "\f075";
+}
+
+.icon-magnet:before {
+    content: "\f076";
+}
+
+.icon-chevron-up:before {
+    content: "\f077";
+}
+
+.icon-chevron-down:before {
+    content: "\f078";
+}
+
+.icon-retweet:before {
+    content: "\f079";
+}
+
+.icon-shopping-cart:before {
+    content: "\f07a";
+}
+
+.icon-folder-close:before {
+    content: "\f07b";
+}
+
+.icon-folder-open:before {
+    content: "\f07c";
+}
+
+.icon-resize-vertical:before {
+    content: "\f07d";
+}
+
+.icon-resize-horizontal:before {
+    content: "\f07e";
+}
+
+.icon-bar-chart:before {
+    content: "\f080";
+}
+
+.icon-twitter-sign:before {
+    content: "\f081";
+}
+
+.icon-facebook-sign:before {
+    content: "\f082";
+}
+
+.icon-camera-retro:before {
+    content: "\f083";
+}
+
+.icon-key:before {
+    content: "\f084";
+}
+
+.icon-cogs:before {
+    content: "\f085";
+}
+
+.icon-comments:before {
+    content: "\f086";
+}
+
+.icon-thumbs-up:before {
+    content: "\f087";
+}
+
+.icon-thumbs-down:before {
+    content: "\f088";
+}
+
+.icon-star-half:before {
+    content: "\f089";
+}
+
+.icon-heart-empty:before {
+    content: "\f08a";
+}
+
+.icon-signout:before {
+    content: "\f08b";
+}
+
+.icon-linkedin-sign:before {
+    content: "\f08c";
+}
+
+.icon-pushpin:before {
+    content: "\f08d";
+}
+
+.icon-external-link:before {
+    content: "\f08e";
+}
+
+.icon-signin:before {
+    content: "\f090";
+}
+
+.icon-trophy:before {
+    content: "\f091";
+}
+
+.icon-github-sign:before {
+    content: "\f092";
+}
+
+.icon-upload-alt:before {
+    content: "\f093";
+}
+
+.icon-lemon:before {
+    content: "\f094";
+}
+
+.icon-phone {
+    margin-top: 1px;
+}
+
+.icon-phone:before {
+    content: "\f095";
+}
+
+.icon-check-empty:before {
+    content: "\f096";
+}
+
+.icon-bookmark-empty:before {
+    content: "\f097";
+}
+
+.icon-phone-sign:before {
+    content: "\f098";
+}
+
+.icon-twitter:before {
+    content: "\f099";
+}
+
+.icon-facebook:before {
+    content: "\f09a";
+}
+
+.icon-github:before {
+    content: "\f09b";
+}
+
+.icon-unlock:before {
+    content: "\f09c";
+}
+
+.icon-credit-card:before {
+    content: "\f09d";
+}
+
+.icon-rss:before {
+    content: "\f09e";
+}
+
+.icon-hdd:before {
+    content: "\f0a0";
+}
+
+.icon-bullhorn:before {
+    content: "\f0a1";
+}
+
+.icon-bell:before {
+    content: "\f0a2";
+}
+
+.icon-certificate:before {
+    content: "\f0a3";
+}
+
+.icon-hand-right:before {
+    content: "\f0a4";
+}
+
+.icon-hand-left:before {
+    content: "\f0a5";
+}
+
+.icon-hand-up:before {
+    content: "\f0a6";
+}
+
+.icon-hand-down:before {
+    content: "\f0a7";
+}
+
+.icon-circle-arrow-left:before {
+    content: "\f0a8";
+}
+
+.icon-circle-arrow-right:before {
+    content: "\f0a9";
+}
+
+.icon-circle-arrow-up:before {
+    content: "\f0aa";
+}
+
+.icon-circle-arrow-down:before {
+    content: "\f0ab";
+}
+
+.icon-globe:before {
+    content: "\f0ac";
+}
+
+.icon-wrench:before {
+    content: "\f0ad";
+}
+
+.icon-tasks:before {
+    content: "\f0ae";
+}
+
+.icon-filter:before {
+    content: "\f0b0";
+}
+
+.icon-briefcase:before {
+    content: "\f0b1";
+}
+
+.icon-fullscreen:before {
+    content: "\f0b2";
+}
+
+.icon-group:before {
+    content: "\f0c0";
+}
+
+.icon-link:before {
+    content: "\f0c1";
+}
+
+.icon-cloud:before {
+    content: "\f0c2";
+}
+
+.icon-beaker:before {
+    content: "\f0c3";
+}
+
+.icon-cut:before {
+    content: "\f0c4";
+}
+
+.icon-copy:before {
+    content: "\f0c5";
+}
+
+.icon-paper-clip:before {
+    content: "\f0c6";
+}
+
+.icon-save:before {
+    content: "\f0c7";
+}
+
+.icon-sign-blank:before {
+    content: "\f0c8";
+}
+
+.icon-reorder:before {
+    content: "\f0c9";
+}
+
+.icon-list-ul:before {
+    content: "\f0ca";
+}
+
+.icon-list-ol:before {
+    content: "\f0cb";
+}
+
+.icon-strikethrough:before {
+    content: "\f0cc";
+}
+
+.icon-underline:before {
+    content: "\f0cd";
+}
+
+.icon-table:before {
+    content: "\f0ce";
+}
+
+.icon-magic:before {
+    content: "\f0d0";
+}
+
+.icon-truck:before {
+    content: "\f0d1";
+}
+
+.icon-pinterest:before {
+    content: "\f0d2";
+}
+
+.icon-pinterest-sign:before {
+    content: "\f0d3";
+}
+
+.icon-google-plus-sign:before {
+    content: "\f0d4";
+}
+
+.icon-google-plus:before {
+    content: "\f0d5";
+}
+
+.icon-money:before {
+    content: "\f0d6";
+}
+
+.icon-caret-down:before {
+    content: "\f0d7";
+}
+
+.icon-caret-up:before {
+    content: "\f0d8";
+}
+
+.icon-caret-left:before {
+    content: "\f0d9";
+}
+
+.icon-caret-right:before {
+    content: "\f0da";
+}
+
+.icon-columns:before {
+    content: "\f0db";
+}
+
+.icon-sort:before {
+    content: "\f0dc";
+}
+
+.icon-sort-down:before {
+    content: "\f0dd";
+}
+
+.icon-sort-up:before {
+    content: "\f0de";
+}
+
+.icon-envelope-alt:before {
+    content: "\f0e0";
+}
+
+.icon-linkedin:before {
+    content: "\f0e1";
+}
+
+.icon-undo:before, .icon-rotate-left:before {
+    content: "\f0e2";
+}
+
+.icon-legal:before {
+    content: "\f0e3";
+}
+
+.icon-dashboard:before {
+    content: "\f0e4";
+}
+
+.icon-comment-alt:before {
+    content: "\f0e5";
+}
+
+.icon-comments-alt:before {
+    content: "\f0e6";
+}
+
+.icon-bolt:before {
+    content: "\f0e7";
+}
+
+.icon-sitemap:before {
+    content: "\f0e8";
+}
+
+.icon-umbrella:before {
+    content: "\f0e9";
+}
+
+.icon-paste:before {
+    content: "\f0ea";
+}
+
+.icon-lightbulb:before {
+    content: "\f0eb";
+}
+
+.icon-exchange:before {
+    content: "\f0ec";
+}
+
+.icon-cloud-download:before {
+    content: "\f0ed";
+}
+
+.icon-cloud-upload:before {
+    content: "\f0ee";
+}
+
+.icon-user-md:before {
+    content: "\f0f0";
+}
+
+.icon-stethoscope:before {
+    content: "\f0f1";
+}
+
+.icon-suitcase:before {
+    content: "\f0f2";
+}
+
+.icon-bell-alt:before {
+    content: "\f0f3";
+}
+
+.icon-coffee:before {
+    content: "\f0f4";
+}
+
+.icon-food:before {
+    content: "\f0f5";
+}
+
+.icon-file-alt:before {
+    content: "\f0f6";
+}
+
+.icon-building:before {
+    content: "\f0f7";
+}
+
+.icon-hospital:before {
+    content: "\f0f8";
+}
+
+.icon-ambulance:before {
+    content: "\f0f9";
+}
+
+.icon-medkit:before {
+    content: "\f0fa";
+}
+
+.icon-fighter-jet:before {
+    content: "\f0fb";
+}
+
+.icon-beer:before {
+    content: "\f0fc";
+}
+
+.icon-h-sign:before {
+    content: "\f0fd";
+}
+
+.icon-plus-sign-alt:before {
+    content: "\f0fe";
+}
+
+.icon-double-angle-left:before {
+    content: "\f100";
+}
+
+.icon-double-angle-right:before {
+    content: "\f101";
+}
+
+.icon-double-angle-up:before {
+    content: "\f102";
+}
+
+.icon-double-angle-down:before {
+    content: "\f103";
+}
+
+.icon-angle-left:before {
+    content: "\f104";
+}
+
+.icon-angle-right:before {
+    content: "\f105";
+}
+
+.icon-angle-up:before {
+    content: "\f106";
+}
+
+.icon-angle-down:before {
+    content: "\f107";
+}
+
+.icon-desktop:before {
+    content: "\f108";
+}
+
+.icon-laptop:before {
+    content: "\f109";
+}
+
+.icon-tablet:before {
+    content: "\f10a";
+}
+
+.icon-mobile-phone:before {
+    content: "\f10b";
+}
+
+.icon-circle-blank:before {
+    content: "\f10c";
+}
+
+.icon-quote-left:before {
+    content: "\f10d";
+}
+
+.icon-quote-right:before {
+    content: "\f10e";
+}
+
+.icon-spinner:before {
+    content: "\f110";
+}
+
+.icon-circle:before {
+    content: "\f111";
+}
+
+.icon-reply:before, .icon-mail-reply:before {
+    content: "\f112";
+}
+
+.icon-folder-close-alt:before {
+    content: "\f114";
+}
+
+.icon-folder-open-alt:before {
+    content: "\f115";
+}
+
+.icon-expand-alt:before {
+    content: "\f116";
+}
+
+.icon-collapse-alt:before {
+    content: "\f117";
+}
+
+.icon-smile:before {
+    content: "\f118";
+}
+
+.icon-frown:before {
+    content: "\f119";
+}
+
+.icon-meh:before {
+    content: "\f11a";
+}
+
+.icon-gamepad:before {
+    content: "\f11b";
+}
+
+.icon-keyboard:before {
+    content: "\f11c";
+}
+
+.icon-flag-alt:before {
+    content: "\f11d";
+}
+
+.icon-flag-checkered:before {
+    content: "\f11e";
+}
+
+.icon-terminal:before {
+    content: "\f120";
+}
+
+.icon-code:before {
+    content: "\f121";
+}
+
+.icon-reply-all:before {
+    content: "\f122";
+}
+
+.icon-mail-reply-all:before {
+    content: "\f122";
+}
+
+.icon-star-half-full:before, .icon-star-half-empty:before {
+    content: "\f123";
+}
+
+.icon-location-arrow:before {
+    content: "\f124";
+}
+
+.icon-crop:before {
+    content: "\f125";
+}
+
+.icon-code-fork:before {
+    content: "\f126";
+}
+
+.icon-unlink:before {
+    content: "\f127";
+}
+
+.icon-question:before {
+    content: "\f128";
+}
+
+.icon-info:before {
+    content: "\f129";
+}
+
+.icon-exclamation:before {
+    content: "\f12a";
+}
+
+.icon-superscript:before {
+    content: "\f12b";
+}
+
+.icon-subscript:before {
+    content: "\f12c";
+}
+
+.icon-eraser:before {
+    content: "\f12d";
+}
+
+.icon-puzzle-piece:before {
+    content: "\f12e";
+}
+
+.icon-microphone:before {
+    content: "\f130";
+}
+
+.icon-microphone-off:before {
+    content: "\f131";
+}
+
+.icon-shield:before {
+    content: "\f132";
+}
+
+.icon-calendar-empty:before {
+    content: "\f133";
+}
+
+.icon-fire-extinguisher:before {
+    content: "\f134";
+}
+
+.icon-rocket:before {
+    content: "\f135";
+}
+
+.icon-maxcdn:before {
+    content: "\f136";
+}
+
+.icon-chevron-sign-left:before {
+    content: "\f137";
+}
+
+.icon-chevron-sign-right:before {
+    content: "\f138";
+}
+
+.icon-chevron-sign-up:before {
+    content: "\f139";
+}
+
+.icon-chevron-sign-down:before {
+    content: "\f13a";
+}
+
+.icon-html5:before {
+    content: "\f13b";
+}
+
+.icon-css3:before {
+    content: "\f13c";
+}
+
+.icon-anchor:before {
+    content: "\f13d";
+}
+
+.icon-unlock-alt:before {
+    content: "\f13e";
+}
+
+.icon-bullseye:before {
+    content: "\f140";
+}
+
+.icon-ellipsis-horizontal:before {
+    content: "\f141";
+}
+
+.icon-ellipsis-vertical:before {
+    content: "\f142";
+}
+
+.icon-rss-sign:before {
+    content: "\f143";
+}
+
+.icon-play-sign:before {
+    content: "\f144";
+}
+
+.icon-ticket:before {
+    content: "\f145";
+}
+
+.icon-minus-sign-alt:before {
+    content: "\f146";
+}
+
+.icon-check-minus:before {
+    content: "\f147";
+}
+
+.icon-level-up:before {
+    content: "\f148";
+}
+
+.icon-level-down:before {
+    content: "\f149";
+}
+
+.icon-check-sign:before {
+    content: "\f14a";
+}
+
+.icon-edit-sign:before {
+    content: "\f14b";
+}
+
+.icon-external-link-sign:before {
+    content: "\f14c";
+}
+
+.icon-share-sign:before {
+    content: "\f14d";
+}
+
+.sky-form [class^="icon-"] {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+.sky-form .icon-append, .sky-form .icon-prepend {
+    position: absolute;
+    top: 5px;
+    width: 29px;
+    height: 29px;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.sky-form .icon-append {
+    right: 5px;
+    padding-left: 3px;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+.sky-form .icon-prepend {
+    left: 5px;
+    padding-right: 3px;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.sky-form .input .icon-prepend + input, .sky-form .textarea .icon-prepend + textarea {
+    padding-left: 46px;
+}
+
+.sky-form .input .icon-append + input, .sky-form .textarea .icon-append + textarea {
+    padding-right: 46px;
+}
+
+.sky-form .input .icon-prepend + .icon-append + input, .sky-form .textarea .icon-prepend + .icon-append + textarea {
+    padding-left: 46px;
+}
+
+/**/
+
+/* grid */
+
+/**/
+
+.sky-form .row {
+    margin: 0 -15px;
+}
+
+.sky-form .row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sky-form .col {
+    float: left;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.sky-form .col-1 {
+    width: 8.33%;
+}
+
+.sky-form .col-2 {
+    width: 16.66%;
+}
+
+.sky-form .col-3 {
+    width: 25%;
+}
+
+.sky-form .col-4 {
+    width: 33.33%;
+}
+
+.sky-form .col-5 {
+    width: 41.66%;
+}
+
+.sky-form .col-6 {
+    width: 50%;
+}
+
+.sky-form .col-8 {
+    width: 66.67%;
+}
+
+.sky-form .col-9 {
+    width: 75%;
+}
+
+.sky-form .col-10 {
+    width: 83.33%;
+}
+
+@media screen and (max-width: 600px) {
+    .sky-form .col {
+        float: none;
+        width: 100%;
+    }
+}
+
+/**/
+
+/* tooltips */
+
+/**/
+
+.sky-form .tooltip {
+    position: absolute;
+    z-index: 1;
+    left: -9999px;
+    padding: 2px 8px 3px;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    opacity: 0;
+    transition: margin 0.3s, opacity 0.3s;
+    -o-transition: margin 0.3s, opacity 0.3s;
+    -ms-transition: margin 0.3s, opacity 0.3s;
+    -moz-transition: margin 0.3s, opacity 0.3s;
+    -webkit-transition: margin 0.3s, opacity 0.3s;
+}
+
+.sky-form .tooltip:after {
+    content: '';
+    position: absolute;
+}
+
+.sky-form .input input:focus + .tooltip, .sky-form .textarea textarea:focus + .tooltip {
+    opacity: 1;
+}
+
+.sky-form .tooltip-top-right {
+    bottom: 100%;
+    margin-bottom: 15px;
+}
+
+.sky-form .tooltip-top-right:after {
+    top: 100%;
+    right: 16px;
+    border-top: 4px solid rgba(0, 0, 0, 0.9);
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.sky-form .input input:focus + .tooltip-top-right, .sky-form .textarea textarea:focus + .tooltip-top-right {
+    right: 0;
+    left: auto;
+    margin-bottom: 5px;
+}
+
+.sky-form .tooltip-top-left {
+    bottom: 100%;
+    margin-bottom: 15px;
+}
+
+.sky-form .tooltip-top-left:after {
+    top: 100%;
+    left: 16px;
+    border-top: 4px solid rgba(0, 0, 0, 0.9);
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.sky-form .input input:focus + .tooltip-top-left, .sky-form .textarea textarea:focus + .tooltip-top-left {
+    right: auto;
+    left: 0;
+    margin-bottom: 5px;
+}
+
+.sky-form .tooltip-right {
+    top: 9px;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+
+.sky-form .tooltip-right:after {
+    top: 6px;
+    right: 100%;
+    border-top: 4px solid transparent;
+    border-right: 4px solid rgba(0, 0, 0, 0.9);
+    border-bottom: 4px solid transparent;
+}
+
+.sky-form .input input:focus + .tooltip-right, .sky-form .textarea textarea:focus + .tooltip-right {
+    left: 100%;
+    margin-left: 5px;
+}
+
+.sky-form .tooltip-left {
+    top: 9px;
+    white-space: nowrap;
+    margin-right: 15px;
+}
+
+.sky-form .tooltip-left:after {
+    top: 6px;
+    left: 100%;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid rgba(0, 0, 0, 0.9);
+}
+
+.sky-form .input input:focus + .tooltip-left, .sky-form .textarea textarea:focus + .tooltip-left {
+    right: 100%;
+    left: auto;
+    margin-right: 5px;
+}
+
+.sky-form .tooltip-bottom-right {
+    top: 100%;
+    margin-top: 15px;
+}
+
+.sky-form .tooltip-bottom-right:after {
+    bottom: 100%;
+    right: 16px;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.9);
+    border-left: 4px solid transparent;
+}
+
+.sky-form .input input:focus + .tooltip-bottom-right, .sky-form .textarea textarea:focus + .tooltip-bottom-right {
+    right: 0;
+    left: auto;
+    margin-top: 5px;
+}
+
+.sky-form .tooltip-bottom-left {
+    top: 100%;
+    margin-top: 15px;
+}
+
+.sky-form .tooltip-bottom-left:after {
+    bottom: 100%;
+    left: 16px;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.9);
+    border-left: 4px solid transparent;
+}
+
+.sky-form .input input:focus + .tooltip-bottom-left, .sky-form .textarea textarea:focus + .tooltip-bottom-left {
+    right: auto;
+    left: 0;
+    margin-top: 5px;
+}
+
+/**/
+
+/* normal state */
+
+/**/
+
+.sky-form .input input, .sky-form .select select, .sky-form .textarea textarea, .sky-form .radio i, .sky-form .checkbox i, .sky-form .toggle i, .sky-form .icon-append, .sky-form .icon-prepend {
+    border-color: #e5e5e5;
+    transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+    -ms-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -webkit-transition: border-color 0.3s;
+}
+
+.sky-form .toggle i:before {
+    background-color: #2da5da;
+}
+
+.sky-form .rating label {
+    color: #ccc;
+    transition: color 0.3s;
+    -o-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+}
+
+.sky-form .button {
+    background-color: #2da5da;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+}
+
+.sky-form .button.button-secondary {
+    background-color: #b3b3b3;
+}
+
+.sky-form .icon-append, .sky-form .icon-prepend {
+    color: #ccc;
+}
+
+/**/
+
+/* hover state */
+
+/**/
+
+.sky-form .input:hover input, .sky-form .select:hover select, .sky-form .textarea:hover textarea, .sky-form .radio:hover i, .sky-form .checkbox:hover i, .sky-form .toggle:hover i {
+    border-color: #8dc9e5;
+}
+
+.sky-form .rating input + label:hover, .sky-form .rating input + label:hover ~ label {
+    color: #2da5da;
+}
+
+.sky-form .button:hover {
+    opacity: 1;
+}
+
+/**/
+
+/* focus state */
+
+/**/
+
+.sky-form .input input:focus, .sky-form .select select:focus, .sky-form .textarea textarea:focus, .sky-form .radio input:focus + i, .sky-form .checkbox input:focus + i, .sky-form .toggle input:focus + i {
+    border-color: #2da5da;
+}
+
+/**/
+
+/* checked state */
+
+/**/
+
+.sky-form .radio input + i:after {
+    background-color: #2da5da;
+}
+
+.sky-form .checkbox input + i:after {
+    color: #2da5da;
+}
+
+.sky-form .radio input:checked + i, .sky-form .checkbox input:checked + i, .sky-form .toggle input:checked + i {
+    border-color: #2da5da;
+}
+
+.sky-form .rating input:checked ~ label {
+    color: #2da5da;
+}
+
+/**/
+
+/* error state */
+
+/**/
+
+.sky-form .state-error input, .sky-form .state-error select, .sky-form .state-error textarea, .sky-form .radio.state-error i, .sky-form .checkbox.state-error i, .sky-form .toggle.state-error i {
+    background: #fff0f0;
+}
+
+.sky-form .state-error select + i {
+    background: #fff0f0;
+    box-shadow: 0 0 0 12px #fff0f0;
+}
+
+.sky-form .toggle.state-error input:checked + i {
+    background: #fff0f0;
+}
+
+.sky-form .note-error {
+    color: #ee9393;
+}
+
+/**/
+
+/* success state */
+
+/**/
+
+.sky-form .state-success input, .sky-form .state-success select, .sky-form .state-success textarea, .sky-form .radio.state-success i, .sky-form .checkbox.state-success i, .sky-form .toggle.state-success i {
+    background: #f0fff0;
+}
+
+.sky-form .state-success select + i {
+    background: #f0fff0;
+    box-shadow: 0 0 0 12px #f0fff0;
+}
+
+.sky-form .toggle.state-success input:checked + i {
+    background: #f0fff0;
+}
+
+.sky-form .note-success {
+    color: #6fb679;
+}
+
+/**/
+
+/* disabled state */
+
+/**/
+
+.sky-form .input.state-disabled input, .sky-form .select.state-disabled, .sky-form .textarea.state-disabled, .sky-form .radio.state-disabled, .sky-form .checkbox.state-disabled, .sky-form .toggle.state-disabled, .sky-form .button.state-disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.sky-form .input.state-disabled:hover input, .sky-form .select.state-disabled:hover select, .sky-form .textarea.state-disabled:hover textarea, .sky-form .radio.state-disabled:hover i, .sky-form .checkbox.state-disabled:hover i, .sky-form .toggle.state-disabled:hover i {
+    border-color: #e5e5e5;
+}
+
+.sky-form p {
+    text-align: justify;
+    font-size: medium;
+    color: red;
+    font-family: sans-serif;
+}

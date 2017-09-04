@@ -1,0 +1,93 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml"
+>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/Base.css" th:href="@{/resources/css/Base.css}"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/Component.css"
+          th:href="@{/resources/css/Component.css}"/>
+    <link rel="stylesheet" type="text/css" media="all" href="css/Component.css"
+          th:href="@{/resources/font_awesome/css/font-awesome.min.css}"/>
+    <script src="/webjars/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/webjars/angularjs/1.6.4/angular.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script th:src="@{/resources/js/Valid.js}"></script>
+    <title th:text="#{label.form.title}">form</title>
+</head>
+<body class="bg-cyan">
+<div class="body body-s">
+
+    <form autocomplete="off" th:action="@{/registrations}"
+          th:object="${userDto}" method="post"
+          role="form" class="sky-form" enctype="utf8">
+        <header>Registration form</header>
+        <fieldset>
+            <section>
+                <label class="input">
+                    <i class="icon-append icon-user"></i>
+                    <input th:field="*{firstName}" type="text" placeholder="First Name"/>
+                    <b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+                </label>
+            </section>
+            <section><p th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}"></p></section>
+            <section>
+                <label class="input">
+                    <i class="icon-append icon-user"></i>
+                    <input th:field="*{lastName}" type="text" placeholder="Last Name"/>
+                    <b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+                </label>
+            </section>
+            <section><p th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></p></section>
+            <section>
+                <label class="input">
+                    <i class="icon-append icon-envelope-alt"></i>
+                    <input type="text" th:field="*{email}" placeholder="Email address"/>
+                    <b class="tooltip tooltip-bottom-right">Needed to verify your account</b>
+                </label>
+            </section>
+            <section><p th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></p></section>
+            <section>
+                <label class="input">
+                    <i class="icon-append icon-lock"></i>
+                    <input type="text" style="display:none;"/>
+                    <input autocomplete="false" id="password" name="password" th:field="*{password}" type="password"
+                           placeholder="Password"/>
+                    <b placeholder="Only latin characters and numbers" class="tooltip tooltip-bottom-right"> Only latin
+                        characters and numbers</b>
+                </label>
+            </section>
+            <section>
+                <p th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></p></section>
+            <section>
+                <label class="input">
+                    <i class="icon-append icon-lock"></i>
+                    <input type="text" style="display:none;"/>
+                    <input autocomplete="false" id="matchPassword" name="matchingPassword" type="password"
+                           th:field="*{matchingPassword}"
+                           placeholder="Matching Password"/>
+                    <b class="tooltip tooltip-bottom-right">Only latin characters and numbers</b>
+                </label>
+            </section>
+            <section><p th:if="${#fields.hasErrors('matchingPassword')}" th:errors="*{matchingPassword}"></p>
+            </section>
+        </fieldset>
+        <fieldset>
+
+            <section>
+                <div class="g-recaptcha" th:attr="data-sitekey=${@captchaService.getReCaptchaSite()}"
+                     data-callback="onReCaptchaSuccess" data-expired-callback="onReCaptchaExpired"></div>
+            </section>
+            <section>
+                <p id="captchaError"></p>
+            </section>
+        </fieldset>
+        <footer>
+            <button id="btn-signup" type="submit" class="button">Sign Up</button>
+        </footer>
+
+    </form>
+</div>
+</body>
+
+</html>

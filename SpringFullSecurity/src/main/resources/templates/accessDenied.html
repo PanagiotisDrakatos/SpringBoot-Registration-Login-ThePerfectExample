@@ -1,0 +1,40 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml"
+>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <script src="/webjars/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/3.3.7-1/js/bootstrap.min.js"></script>
+    <title>Login Demo</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.7-1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/noFound.css}"/>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1>
+                    Oops!</h1>
+                <h2 th:text="${StatusType}"></h2>
+                <h2 th:text="${ErrorType}"></h2>
+                <h2 th:text="${TraceType}"></h2>
+                <h2 th:text="${MessageType}"></h2>
+                <h2 th:text="${TimeStamp}"></h2>
+                <div class="error-details">
+                    Sorry, an error has occured, Requested page not found!
+                </div>
+                <div class="error-actions">
+                    <a th:href="@{/login}" class="btn btn-primary btn-lg"><span
+                            class="glyphicon glyphicon-home"></span>
+                        Take Me Home </a>
+                    <a href="http://docs.spring.io" class="btn btn-default btn-lg"><span
+                            class="glyphicon glyphicon-envelope"></span> Contact Support </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
