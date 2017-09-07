@@ -1,5 +1,5 @@
 
-<p align="center"><img width=45% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login.png"></p>
+![Image of Yaktocat](https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login.png)
 ## Table of Contents :smile:
 
   - [Basic Overview](#basic-overview)
