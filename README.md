@@ -1,6 +1,5 @@
 
 
-<p align="center"><img width=12.5% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login.png"></p>
 ## Table of Contents :smile:
 
   - [Basic Overview](#basic-overview)
@@ -35,8 +34,7 @@ ___
  &nbsp; Because you will make your __life easier__. Imagine that you want to create a big website with much complexity for the backend in addition, you must use a lot of microservices architectures in your Web Project. :sweat: Firstly, relax you have already saved a lot of time. Your login and sign up page of your system is ready, it's secure and full open source. Independently who you are, this is your right choice to start. :yum: :yum: :yum: <br />
  &nbsp; You have the ability to expand it as you wish. Basically, you declare your component and the relationship between them and the framework takes care of the lifecycle of your components and wires them together into a useful graph of objects. If you consider how many libraries Spring integrates with, the competition fades away. A good way to convince yourself is to look at the number of guides or how-tos are available on the <a href="http://spring.io/guides"> SpringWebsite</a>. All of them follow one important pattern: specify the correct dependency, initialize a Spring component and autowire library beans into it.
  
-  <p align="center"><img width=12.5% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/register.png"></p>
-  
+ 
 # Deployment
 ___
 
@@ -62,7 +60,7 @@ ___
   
   The UniServerZ folder contains file UniController.exe which opens The Uniform Server's control application for running the servers as a standard program. simply run it.
   
-  <p align="center"><img width=60% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/Uniserver.png"></p>
+  <p align="center"><img width=30% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/Uniserver.png"></p>
   
   UniController is shown on the above.
    1. Click Start Apache button. Starts the Apache server.
