@@ -60,7 +60,7 @@ ___
   
   The UniServerZ folder contains file UniController.exe which opens The Uniform Server's control application for running the servers as a standard program. simply run it.
   
-  <p align="center"><img width=30% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/Uniserver.png"></p>
+  <p align="center"><img width=45% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/Uniserver.png"></p>
   
   UniController is shown on the above.
    1. Click Start Apache button. Starts the Apache server.
