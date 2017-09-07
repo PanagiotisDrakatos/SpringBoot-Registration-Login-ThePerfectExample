@@ -1,8 +1,5 @@
 
-<p align="center">
-  <img src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login.png">
-</p>
-
+<p align="center"><img width=60% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login-pi-logo-large.png"></p>
 ## Table of Contents :smile:
 
   - [Basic Overview](#basic-overview)
@@ -30,6 +27,10 @@
 # Basic Overview
 ___
 A simple, but at the same time powerful secure login and signup system, which mixes a lot of microservices together and make a unique choice to adopt it. It comes along with the latest Spring framework Techonologies such as Spring Boot 1.5.6,Spring Security, Mysql,Hibernate and JPA,  Bootstrap 3 for the form design as well as jQuery for event handling.
+
+<p align="center">
+  <img src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login.png">
+</p>
 
 
 # Why should i use it 
