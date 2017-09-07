@@ -2,6 +2,7 @@
 <p align="center"><img width=55% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login-pi-logo-large.png"></p>
 
 ## Table of Contents :smile:
+___
 
   - [Basic Overview](#basic-overview)
   - [Why should i use it?](#why-should-i-use-it)
