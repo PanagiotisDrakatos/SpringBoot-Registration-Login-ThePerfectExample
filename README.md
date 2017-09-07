@@ -2,6 +2,7 @@
 <p align="center">
   <img src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login.png">
 </p>
+
 ## Table of Contents :smile:
 
   - [Basic Overview](#basic-overview)
