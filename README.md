@@ -43,8 +43,6 @@ A simple, but at the same time powerful secure login and signup system, which mi
 </p>
  
 # Deployment
-___
-
 In order to deploy this projects, you need to perform some steps:
 * About 15 minutes :kissing_closed_eyes: 
 * A favorite text editor or IDE
