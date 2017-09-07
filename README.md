@@ -2,7 +2,6 @@
 <p align="center"><img width=55% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login-pi-logo-large.png"></p>
 
 ## Table of Contents :smile:
-___
 
   - [Basic Overview](#basic-overview)
   - [Why should i use it?](#why-should-i-use-it)
@@ -36,7 +35,7 @@ A simple, but at the same time powerful secure login and signup system, which mi
 
 
 # Why should i use it 
-___
+
  &nbsp; Because you will make your __life easier__. Imagine that you want to create a big website with much complexity for the backend in addition, you must use a lot of microservices architectures in your Web Project. :sweat: Firstly, relax you have already saved a lot of time. Your login and sign up page of your system is ready, it's secure and full open source. Independently who you are, this is your right choice to start. :yum: :yum: :yum: <br />
  &nbsp; You have the ability to expand it as you wish. Basically, you declare your component and the relationship between them and the framework takes care of the lifecycle of your components and wires them together into a useful graph of objects. If you consider how many libraries Spring integrates with, the competition fades away. A good way to convince yourself is to look at the number of guides or how-tos are available on the <a href="http://spring.io/guides"> SpringWebsite</a>. All of them follow one important pattern: specify the correct dependency, initialize a Spring component and autowire library beans into it.
  
@@ -57,7 +56,7 @@ In order to deploy this projects, you need to perform some steps:
      * <a href="/guides/gs/intellij-idea/">IntelliJ IDEA</a>
      
 # Installation
-___
+
 
 ## Install MySQL
  For testing purposes i use the <a href="uniformserver">UniformServer</a>, a lightweight solution WAMP Servr solution.So lets go to start.
