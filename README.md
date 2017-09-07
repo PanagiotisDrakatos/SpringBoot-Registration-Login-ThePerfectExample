@@ -1,5 +1,6 @@
 
-<p align="center"><img width=60% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login-pi-logo-large.png"></p>
+<p align="center"><img width=50% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login-pi-logo-large.png"></p>
+
 ## Table of Contents :smile:
 
   - [Basic Overview](#basic-overview)
