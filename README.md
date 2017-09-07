@@ -26,7 +26,6 @@
 
 
 # Basic Overview
-___
 A simple, but at the same time powerful secure login and signup system, which mixes a lot of microservices together and make a unique choice to adopt it. It comes along with the latest Spring framework Techonologies such as Spring Boot 1.5.6,Spring Security, Mysql,Hibernate and JPA,  Bootstrap 3 for the form design as well as jQuery for event handling.
 
 <p align="center">
