@@ -1,4 +1,6 @@
 
+![alt text](https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login.png)
+![alt text](https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/register.png)
 ## Table of Contents :smile:
 
   - [Basic Overview](#basic-overview)
@@ -58,7 +60,9 @@ ___
   
   The UniServerZ folder contains file UniController.exe which opens The Uniform Server's control application for running the servers as a standard program. simply run it.
   
-  UniController is shown on the right.
+  <p align="center"><img width=60% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/Uniserver.png"></p>
+  
+  UniController is shown on the above.
    1. Click Start Apache button. Starts the Apache server.
    2. Click Start MySQL button. Starts the MySQL server.
    
