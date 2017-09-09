@@ -30,7 +30,7 @@
   - [Support](#support)
   - [Acknowledgments](#acknowledgments)
   - [License](#license)
-  -[Contacts](#contacts)
+  - [Contacts](#contacts)
   - [Contributing](#contributing)
   - [Donate](#donate)
 
@@ -361,7 +361,7 @@ ___
 
 # Contacts
 
-Don't hesitate to ask me whatever you want. Stay tuned for more awesome projects . Follow me or Connect me via < a href="https://www.linkedin.com/in/panagiotis-drakatos-b56a0385/">Linkedin<a/>
+Don't hesitate to ask me whatever you want. Stay tuned for more awesome projects . Follow me or Connect me via <a href="https://www.linkedin.com/in/panagiotis-drakatos-b56a0385/">Linkedin<a/>
 
 # Contributing
 ___
