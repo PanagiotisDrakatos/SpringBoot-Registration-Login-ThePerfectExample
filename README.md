@@ -361,7 +361,7 @@ ___
 
 # Contacts
 
-Don't hesitate to ask me whatever you want. Stay tuned for more awesome projects . Follow me or Connect me via <a href="https://www.linkedin.com/in/panagiotis-drakatos-b56a0385/">Linkedin<a/>
+Don't hesitate to ask me whatever you want. Stay tuned for more awesome projects :kissing_heart: . Follow me or Connect me via <a href="https://www.linkedin.com/in/panagiotis-drakatos-b56a0385/">Linkedin<a/>
 
 # Contributing
 ___
