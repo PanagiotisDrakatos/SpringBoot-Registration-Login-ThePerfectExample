@@ -17,8 +17,7 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 public class AdminController {
-    //@Autowired
-    // private SessionListenerWithMetrics sessionlistener;
+
     @Autowired
     private UserService userService;
 
@@ -34,8 +33,6 @@ public class AdminController {
         modelAndView.addObject("userName", "Welcome " + user.getName() + " " + user.getLastName() + " (" + user.getEmail() + ")");
         modelAndView.addObject("adminMessage", "Content Available Only for Users with Admin Role");
         modelAndView.setViewName("admin");
-        //   System.out.println("Active Sessions is "+sessionlistener.getTotalActiveSession()+
-        //           " with Response time"+sessionlistener.getTotalTimeoutSession());
         return modelAndView;
     }
 }
