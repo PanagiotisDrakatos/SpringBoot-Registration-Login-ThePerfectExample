@@ -30,7 +30,7 @@
   - [Support](#support)
   - [Acknowledgments](#acknowledgments)
   - [License](#license)
-   -[Contacts](#contacts)
+  -[Contacts](#contacts)
   - [Contributing](#contributing)
   - [Donate](#donate)
 
