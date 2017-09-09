@@ -30,6 +30,7 @@
   - [Support](#support)
   - [Acknowledgments](#acknowledgments)
   - [License](#license)
+   -[Contacts](#contacts)
   - [Contributing](#contributing)
   - [Donate](#donate)
 
@@ -357,6 +358,10 @@ The Pocket WAR uses the following open source software:
 ___
 <p> This project is licensed under the MIT License - see the <a href="https://github.com/PanagiotisDrakatos/JavaRansomware/blob/master/LICENSE">Licence.md</a> file for details</p>
 
+
+# Contacts
+
+Don't hesitate to ask me whatever you want. Stay tuned for more awesome projects . Follow me or Connect me via < a href="https://www.linkedin.com/in/panagiotis-drakatos-b56a0385/">Linkedin<a/>
 
 # Contributing
 ___
