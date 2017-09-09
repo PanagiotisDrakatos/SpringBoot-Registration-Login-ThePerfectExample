@@ -2,7 +2,7 @@
 <p align="center"><img width=55% src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login-pi-logo-large.png"></p>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Build Status](https://travis-ci.org/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample.svg?branch=master)](https://travis-ci.org/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample)
 [![GitHub contributors](https://img.shields.io/github/contributors/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample.svg)](https://github.com/l16h7n1n6s/testingRepo/issues)
