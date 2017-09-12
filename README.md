@@ -356,7 +356,7 @@ The Pocket WAR uses the following open source software:
 
 # License
 ___
-<p> This project is licensed under the MIT License - see the <a href="https://github.com/PanagiotisDrakatos/JavaRansomware/blob/master/LICENSE">Licence.md</a> file for details</p>
+<p> This project is licensed under the MIT License - see the <a href="https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample/blob/master/LICENSE.md">Licence.md</a> file for details</p>
 
 
 # Contacts
