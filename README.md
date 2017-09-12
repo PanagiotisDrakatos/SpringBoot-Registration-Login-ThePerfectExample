@@ -138,7 +138,7 @@ $ mvn clean install
 
 This is a Spring Boot project, so you can deploy it by simply using the main class: ```Application.java``` 
 
-The compiled, source, and Javadoc WAR files will be placed in your target folder just simple ran the coomand below if you want to start the project from the war file. (__Attention!!!__ [ConfigureMySQL](#configureMySQL) before continue).
+The compiled, source, and Javadoc WAR files will be placed in your target folder just simple ran the coomand below if you want to start the project from the war file. (__Attention!!!__  [Configure MySQL](#configure-mysql) before continue).
 ```
 $ cd C:\Users\User\Documents\GitHub\SpringBoot-MVC-Hibernate-JPA-Mysql\SpringFullSecurity\target\
 $ java -jar original-Spring-Full-Security-1.0-SNAPSHOT.war
@@ -356,7 +356,7 @@ The Pocket WAR uses the following open source software:
 
 # License
 ___
-<p> This project is licensed under the MIT License - see the <a href="https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample/blob/master/LICENSE.md">Licence.md</a> file for details</p>
+<p> This project is licensed under the MIT License - see the <a href="https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample/blob/master/LICENSE.md">Licence</a> file for details</p>
 
 
 # Contacts
