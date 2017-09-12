@@ -25,7 +25,7 @@ script:
 notifications:
    email:
     recipients:
-      - gpawnrt13@gmail.com
+      - panagiotisdrakatos@gmail.com
     on_success: change
 on_failure: always
 
