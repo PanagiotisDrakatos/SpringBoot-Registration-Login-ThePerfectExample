@@ -70,7 +70,7 @@ In order to deploy this projects, you need to perform some steps:
  The Uniform Server Zeros base component is the controller application. Download and extract this base component first.
    * Download and save the latest controller file (<a href="https://sourceforge.net/projects/miniserver/files/Uniform%20Server%20ZeroXIII/">ZeroXI_Controller_latest_Version.exe<a/>) to drive C:   
    * The file is a self-extracting archive, double click to run the extractor.
-   * The installation (extraction) defaults to creating folder C:\UniServerZ ,
+   * The installation (extraction) defaults to creating folder `C:\UniServerZ` ,
    with the folder  structure as shown on the right.
   
   The UniServerZ folder contains file UniController.exe which opens The Uniform Server's control application for running the servers as a standard program. simply run it.
