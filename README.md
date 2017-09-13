@@ -4,7 +4,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Build Status](https://travis-ci.org/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample.svg?branch=master)](https://travis-ci.org/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample)
-[![GitHub contributors](https://img.shields.io/github/contributors/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample.svg)](https://travis-ci.org/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample)
+[![star this repo](http://githubbadges.com/star.svg?user=PanagiotisDrakatos&repo=SpringBoot-Registration-Login-ThePerfectExample&style=flat&color=fff&background=007ec6)](https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample)
 [![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample.svg)](https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample/issues)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample.svg)](https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample/pulls)
