@@ -256,7 +256,7 @@ create table if not exists persistent_logins (
 );
 ```
 
-Navigate in the CONFIGCLASS And for the sake of completeness, here is the way persistence is set up:
+Navigate in the <a href="https://github.com/PanagiotisDrakatos/SpringBoot-Registration-Login-ThePerfectExample/blob/master/src/main/java/com/github/tutorial/Spring/SecurityConfig.java">Config</a> class, and for the sake of completeness, here is the way persistence is set up:
 
 
 ```java
