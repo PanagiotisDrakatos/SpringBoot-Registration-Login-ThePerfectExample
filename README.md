@@ -36,7 +36,7 @@
 
 
 # Basic Overview
-A simple, but at the same time powerful secure login and signup system, which mixes a lot of microservices together and make a unique choice to adopt it. In addition, it comes along with the latest Spring framework Techonologies. Furthemore ,this example is composed by a combination of  Spring Boot 1.5.6,Spring Security, Mysql,Hibernate and JPA,  Bootstrap 3 for the form design as well as jQuery for event handling.
+A simple, but at the same time powerful secure login and signup system, which mixes a lot of microservices together and make a unique choice to adopt it. In addition, it comes along with the latest Spring framework Techonologies. Furthemore, this example is composed by a combination of  Spring Boot 1.5.6,Spring Security, Mysql,Hibernate and JPA,  Bootstrap 3 for the form design as well as jQuery for event handling.
 
 <p align="center">
   <img src="https://github.com/PanagiotisDrakatos/SpringBoot-MVC-Hibernate-JPA-Mysql/blob/master/Images/login.png">
