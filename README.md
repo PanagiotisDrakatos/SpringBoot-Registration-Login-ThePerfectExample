@@ -140,7 +140,7 @@ This is a Spring Boot project, so you can deploy it by simply using the main cla
 
 The compiled, source, and Javadoc WAR files will be placed in your target folder just simple ran the coomand below if you want to start the project from the war file. (__Attention!!!__  [Configure MySQL](#configure-mysql) before continue).
 ```
-$ cd C:\Users\User\Documents\GitHub\SpringBoot-MVC-Hibernate-JPA-Mysql\SpringFullSecurity\target\
+$ cd (Your Path here)\SpringBoot-Registration-Login-ThePerfectExample\target\
 $ java -jar original-Spring-Full-Security-1.0-SNAPSHOT.war
 ```
 
