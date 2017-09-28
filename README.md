@@ -144,6 +144,11 @@ $ cd C:\Users\User\Documents\GitHub\SpringBoot-MVC-Hibernate-JPA-Mysql\SpringFul
 $ java -jar original-Spring-Full-Security-1.0-SNAPSHOT.war
 ```
 
+If everything is working properly you will able to open the <a href="https://127.0.0.1:8443/">https://127.0.0.1:8443/</a>
+
+you will automatically be redirected  in the Loginpage
+
+
 # Usage
 ___
 ## Basic Functionality
