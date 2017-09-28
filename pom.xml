@@ -105,6 +105,15 @@
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.jks</include>
+                    <include>**/*.crt</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.html</include>
+                    <include>**/*.jpg</include>
+                    <include>**/*.css</include>
+                    <include>**/*.js</include>
+                </includes>
             </resource>
         </resources>
         <plugins>
@@ -120,6 +129,8 @@
                                 <include>**/*.jpg</include>
                                 <include>**/*.css</include>
                                 <include>**/*.js</include>
+                                <include>**/*.jks</include>
+                                <include>**/*.crt</include>
                             </includes>
                         </resource>
                     </webResources>
